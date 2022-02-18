@@ -26,7 +26,7 @@ zoommtg://my/path/mtg.lwl
 
 And a URI with a Path and a parameter
 
-zoommtg://subdomain.videolinkwell.com/e5eda8db-6116-4a46-9c5b-28e61429fd54?pwd=wo894ur9jowijhf9iw3h4r9ihfw
+zoommtg://subdomain.example.com/e5eda8db-6116-4a46-9c5b-28e61429fd54?pwd=wo894ur9jowijhf9iw3h4r9ihfw
 
 I found both of these would launch the Zoom app.
 
@@ -35,7 +35,7 @@ Then I made an example app called LC Web Launch and I would use a protocol lcWeb
 
 I wanted the URI to look something like this.
 
-lcWebLaunch://subdomain.videolinkwell.com/e5eda8db-6116-4a46-9c5b-28e61429fd54/mydocument.lwl?pwd=woen
+lcWebLaunch://subdomain.example.com/e5eda8db-6116-4a46-9c5b-28e61429fd54/mydocument.lwl?pwd=woen
 
 
 So to have that URI launch the **LC Web Launch** standalone app I needed to edit the **info.plist** file of the Contents folder of its **lcWebLaunch.app** file
